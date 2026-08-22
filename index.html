@@ -1,194 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 </title>
-   <style> 
-  body{ 
-    background-color: rgb(235, 210, 112);
-  }
-   
-   
-   body { 
-        margin: 0 ;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .menu { 
-        background-color: papayawhip;
-        padding: 15px;
-        text-align: center;
-    }
-    .menu a { 
-        color: rgb(0, 19, 13);
-        text-decoration: none;
-        margin: 0 20px;
-        font-size: 18px;
-    }
-    .menu a:hover { 
-        color: crimson;
-    
-    } 
-    
-    .dangnhap{
-border: 2px solid black;
-padding: 10px 20px;
-border-radius: 8px;
-text-decoration: none;
-    }
-    .tieude{
-font-size: 23px;
-color: black;
-font-weight: bold;
-text-align: center;
-text-shadow: 2px 2px 3px #e4e1e1;
-    }
-    p{ 
-        font-size: 20px;
-        line-height: 1.6px;
-        color: black;
-        text-align: justify;
-    }
-   
-    
-    </style>
+    <title>中文考试成绩在线验证结果查询</title>
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, "Microsoft YaHei", sans-serif;
+            background: white;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .company {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            border: 1px solid #ddd;
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+
+        .box-title {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 9px;
+            text-align: left;
+        }
+
+        th {
+            text-align: center;
+            background: #f5f5f5;
+        }
+
+        .photo {
+            width: 120px;
+            text-align: center;
+        }
+
+        .photo img {
+            width: 100px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 8px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            td, th {
+                padding: 6px;
+                font-size: 13px;
+            }
+
+            .photo {
+                width: 90px;
+            }
+
+            .photo img {
+                width: 75px;
+            }
+        }
+    </style>
+</head>
 
 <body>
-    <div class="menu">
-        <a href="index.html"> TRANG CHỦ</a>
-        <a href="gioithieu.html"> GIỚI THIỆU  </a> 
-        <a href="sanpham.html">SẢN PHẨM </a> 
-        <a href="lienhe.html">LIÊN HỆ </a> 
-        <A href="#"> </A>
-        <a href="#"> </a>
-        <a href="#"></a>
-        <a href="#"> </a>
-        <a href="#" class="dangnhap"> ĐĂNG NHẬP </a>
+
+<div class="container">
+
+    <h1>中文考试成绩在线验证结果查询</h1>
+    <div class="company">
+        汉考国际教育科技（北京）有限公司（CTI）
     </div>
-   <H1> ẨM THỰC VIỆT NAM</H1>
-   <h5> Ẩm thực là một hệ thống quan điểm và
-     thực hành nấu ăn gắn liền với văn hóa 
-     cụ thể, thường được đặt tên theo vùng hoặc nền văn hóa hiện hành.
 
-Ẩm thực không chỉ bao gồm các món ăn mà còn 
-phản ánh văn hóa và tập tục của một dân tộc.
- Nó được hình thành từ các nguyên liệu có sẵn
-  tại địa phương, cũng như ảnh hưởng từ thương mại
-   và giao lưu văn hóa. Ẩm thực còn thể hiện sự đa 
-   dạng qua các vùng miền và có thể bao gồm cả các
-    yếu tố tôn giáo, phong tục tập quán trong việc
-     chế biến và thưởng thức món ăn 
+    <div class="box">
+        <div class="box-title">考生信息</div>
 
-   </h5>
-    <table>
-<tr> 
-<td> <img src="c:\Users\Admin\Pictures\am-thuc-viet.jpg" alt="1" width="500"></td>
-<td>
- <h2 class="tieude"> Nét đặc trưng trong văn hóa ẩm thực việt</h2>   
-    
-    
-   Ẩm thực Việt Nam là cách gọi của phương thức chế biến món ăn, 
-    nguyên lý pha trộn gia vị và những thói quen ăn uống nói chung 
-    của cộng đồng người Việt và các dân tộc thuộc Việt trên đất
-     nước Việt Nam.
+        <table>
+            <tr>
+                <td>证件姓名</td>
+                <td>NGUYEN THUY GIANG</td>
+                <td rowspan="4" class="photo">
+                    <img src="anh.jpg" alt="照片">
+                </td>
+            </tr>
 
+            <tr>
+                <td>中文姓名</td>
+                <td>阮垂江</td>
+            </tr>
 
-</td>
-</tr>
-<tr> 
-<td>
-    <h2 class="tieude"> Phở Hà Nội - Món ăn làm nên tên tuổi ẩm thực Việt Nam</h2>
-Phở Hà Nội là một món ăn nổi tiếng ở đất Hà Thành. Người dân nơi đây cũng không
- rõ nó xuất hiện từ bao giờ. Với vị thơm ngon của nước dùng, sự dẻo dai của bánh phở hòa cùng
- hương thơm của các loại rau ăn kèm đã làm cho phở Hà Nội 
- trở nên đặc biệt trong mắt của những tín đồ ẩm thực. Phở Hà Nội được biết đến
-  đầu tiên qua những gánh hàng rong. 
- Thời điểm đó mọi người hay gọi món ăn này “phở gánh”
- , tạo nên nét đặc trưng riêng. Những gánh phở đi qua từng 
- con phố, len lỏi vào trong ngõ nhỏ cùng với tiếng rao vặt đem 
- đến nét đẹp của một Hà Thành rất xưa.
+            <tr>
+                <td>国籍</td>
+                <td>越南</td>
+            </tr>
 
-Hiện nay, những gánh phở như này không còn nhiều, chỉ xuất hiện
- một số ít ở phố cổ, rất khó để bắt gặp được. Tuy nhiên, giá trị
-  và hương vị của phở Hà Nội vẫn còn đó, không bị phai mờ theo thời gian.
+            <tr>
+                <td>性别</td>
+                <td>女</td>
+            </tr>
+        </table>
+    </div>
 
-</td>
-<td> <img  src="c:\Users\Admin\Downloads\Phở_bò,_Cầu_Giấy,_Hà_Nội.jpg" alt="2" width="500" height="300"></td>
-</tr>
-</table>
-<table >
-<tr> 
+    <div class="box">
+        <div class="box-title">考试信息</div>
 
-<td><img src="c:\Users\Admin\Pictures\camnhi-201417111459-banh-mi-phuong.jpg" alt="3" width="300"></td>
-<td> 
-    <h3 class="tieude"> BÁNH MÌ</h3>
-    Trước bánh mì, thế giới biết đến ẩm thực VN qua món phở trứ danh.
-     Là chuyên gia văn hóa đã có rất nhiều năm nghiên cứu về ẩm thực của người Việt,
-      PGS-TS Phan An nhận định người ta hay gắn văn hóa ẩm thực của một dân tộc với những 
-      món ăn thuần địa phương, do người bản địa phát minh. Phở của VN là một trong những món
-       ăn như vậy. Thế nhưng, bánh mì có đặc điểm riêng và ở một góc
-     nhìn nào đó, bánh mì mới chính
-      là thứ thể hiện đầy đủ và rõ nét nhất 
-      những đặc tính điển hình của văn hóa VN.</td>
-      <TR>
-<td> <img src="c:\Users\Admin\Pictures\banh-da-cua-hai-phong-o-ha-noi-1_1687012182.jpg" alt="4" width="300"> </td>
-<TD> <H3 class="tieude"> BÁNH ĐA CUA</H3>
+        <table>
+            <tr>
+                <td>考点名称</td>
+                <td>越南太原大学HSK考点（网考）</td>
+            </tr>
 
-Bánh đa cua Hải Phòng từ lâu đã trở thành một đặc sản trứ 
-danh rất được mọi người yêu thích ở đất Cảng. Được chế biến một cách cầu kỳ, 
-tinh tế với nhiều loại nguyên liệu khác nhau, bánh đa cua đem đến một hương vị
- đặc trưng chỉ có tại vùng biển du lịch Hải Phòng. Đến với mảnh đất nơi đầu sóng ngọn gió, 
-thưởng thức những món ăn đặc sắc của miền biển trong tiết trời mùa hè oi bức thì còn gì tuyệt vời hơn.
-</TD>
-<TR> 
-<td> <img src="c:\Users\Admin\Pictures\images.jpg" alt="5" width="300"> </td>
-<TD> 
-<H3 class="tieude"> CHẢ MỰC QUẢNG NINH</H3>
-Khi đến với những cửa hàng chuyên bán chả mực tại Quảng Ninh,
- bạn sẽ được thấy các bà, các chị tay thoăn thoắt đang chiên và vớt
-  chả mực nóng hỏi khỏi chảo. Cầm lên thử ngay một miếng chả vẫn còn nóng hổi, 
-  cắn miếng đầu tiên bạn sẽ cảm nhận trọn vẹn hương vị của món đặc sản nổi danh 
-  của miền đất mỏ. Từng miếng mực vừa giòn vừa ngọt,
- lại dai dai sần sật, gia vị thì vừa miệng,
-  đậm đà, sẽ kích thích vị giác của bạn một cách mạnh mẽ. 
+            <tr>
+                <td>准考证号</td>
+                <td>H52618850200000341</td>
+            </tr>
 
-</TD>
-<tr> 
+            <tr>
+                <td>证书编号</td>
+                <td>H52605029717</td>
+            </tr>
 
-<td> <img src="c:\Users\Admin\Pictures\bun-bo-hue-1_da318989e7c2493f9e2c3e010e722466.webp" alt="6" width="300"> </td>
-<td> 
-<h3 class="tieude"> BÚN BÒ HUẾ </h3>
-Bún bò Huế là một trong những đặc sản của thành phố
- Huế, mặc dù món bún này phổ biến trên cả ba miền ở Việt
-  Nam và cả người Việt tại hải ngoại. Tại Huế, món này được 
-  gọi đơn giản là "bún bò" hoặc gọi cụ thể hơn là "bún bò -
-   giò heo". Các địa phương khác gọi là "bún bò Huế", "bún bò
-    gốc Huế" để chỉ xuất xứ của món ăn này. Bún bò chính gốc Huế 
-có nguyên liệu chính là bún, thịt bắp
- bò, giò heo, cùng nước dùng có màu đỏ đặc
-  trưng do ớt và vị sả và ruốc.[1]
-</td>
-<TR>
-<td> <img src="c:\Users\Admin\Pictures\com-ga-hoi-an-1-1.jpg" alt="7" width="300"></td>
-<td>
-<h3 class="tieude"> CƠM GÀ HỘI AN </h3>
-Cơm gà Hội An được làm từ hai nguyên liệu chính
- là thịt gà và cơm. Gạo để nấu cơm gà thường là 
- loại gạo ngon của mảnh đất di sản miền Trung nắng gió nhưng đẫm vị 
-thơm bùi. Gạo sau khi vo sạch sẽ được nấu với nước
- luộc gà và lá dứa bằng bếp củi để hạt mềm và thơm.
-</td>
+            <tr>
+                <td>考试类型</td>
+                <td>HSK五级</td>
+            </tr>
 
+            <tr>
+                <td>考试时间</td>
+                <td>08-05-2026</td>
+            </tr>
+        </table>
+    </div>
 
-</tr>
+    <div class="box">
+        <div class="box-title">
+            HSK五级(08-05-2026)中文水平考试
+        </div>
 
+        <table>
+            <tr>
+                <th>听力</th>
+                <th>阅读</th>
+                <th>写作</th>
+                <th>总分</th>
+            </tr>
 
+            <tr>
+                <td style="text-align:center">91</td>
+                <td style="text-align:center">64</td>
+                <td style="text-align:center">75</td>
+                <td style="text-align:center">230</td>
+            </tr>
+        </table>
+    </div>
 
+    <div class="box">
+        <div class="box-title">
+            HSKK（高级）(08-05-2026)中文水平考试
+        </div>
 
-    </table>
- 
-  
-  
+        <table>
+            <tr>
+                <th>口语</th>
+                <th>总分</th>
+                <th>合格情况</th>
+            </tr>
+
+            <tr>
+                <td style="text-align:center">63</td>
+                <td style="text-align:center">63</td>
+                <td style="text-align:center">合格</td>
+            </tr>
+        </table>
+    </div>
+
+    <p style="text-align:center; font-size:12px;">
+        最终解释权归汉考国际所有
+    </p>
+
+</div>
+
 </body>
 </html>
